@@ -15,4 +15,4 @@
 #
 
 add_lunch_combo cm_taoshan-eng
-add_lunch_combo cm_taoshan-userdebug
+add_lunch_combo bliss_taoshan-userdebug
