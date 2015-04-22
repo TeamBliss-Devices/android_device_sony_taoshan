@@ -161,12 +161,12 @@ include vendor/sony/taoshan/BoardConfigVendor.mk
 # BlissPop Config Flags
 TARGET_TC_ROM :=4.8
 TARGET_TC_KERNEL :=4.9-sm
-BLISSIFY :=true
-BLISS_O3 :=true
-BLISS_STRICT :=true
+BLISSIFY :=false
+BLISS_O3 :=false
+BLISS_STRICT :=false
 BLISS_GRAPHITE :=false
-BLISS_PIPE :=true
-BLISS_KRAIT :=true
+BLISS_PIPE :=false
+BLISS_KRAIT :=false
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 -include vendor/bliss/config/sm.mk
