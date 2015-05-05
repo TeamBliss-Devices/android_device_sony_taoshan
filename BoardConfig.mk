@@ -52,6 +52,14 @@ TARGET_KERNEL_CONFIG := cyanogenmod_taoshan_defconfig
 # MMap compatibility
 BOARD_USES_LEGACY_MMAP := true
 
+# FM radio
+PRODUCT_PACKAGES += \
+	qcom.fmradio \
+	libqcomfm_jni \
+	FM2 \
+	FMRecord
+
+
 # GPS
 BOARD_HAVE_NEW_QC_GPS := true
 
